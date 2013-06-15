@@ -13,6 +13,11 @@
 
 ソースコード(Arduino用)はgithubに保存/公開している。  
 https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino  
+
+```
+こちらは下記耐久試験用。
+iR_Servo_RemoteControl_for_test.ino
+```  
   
 コード作成にあたっては以下のウェブサイトを参照した。  
   
