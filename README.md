@@ -34,7 +34,7 @@ http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
 サーボモータのマウント、サーボモータとトグルスイッチをつなぐ為のリンク(レバーとのノブエクステンダー)を作成した。
 
 [試作]
-マウントレイアウト、周辺部材に接触しないレバーの逃がし方等について、複数の試作を行った。
+マウントレイアウト、周辺部材に接触しないレバーの逃がし等について、複数の試作を行った。
 プロトタイプ完成後、耐久試験(on/off:1000回)を行い、問題がないことを確認した。(経年劣化については無視することとした。加水分解に対する耐久性の検討など、今後の課題とする。)
 
 
@@ -42,8 +42,10 @@ http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
 Makerbot Replicator2Xにて出力した。
 強度を確保する為、maker wareにて以下のパラメータを設定した。
   
+```
 infill: 50%  
 number of shells: 3  
+```
   
 完成したstlファイルはThingiverseに保存/公開している。
   
