@@ -1,4 +1,4 @@
-##iR Servo Remote Control with Arduino
+#iR Servo Remote Control with Arduino
 
 ###Project Outline
 
@@ -11,6 +11,82 @@ Relay controll system is suitable for this kind of solution nomally,
 but cause of some reason, I took this method.
 (この課題に対して、普通はリレーを制御するシステムを制作するだろうが、もろもろの事情によりこの方式となった。)
 ```
+
+
+##Instruction
+
+##Hardware
+
+###Servo Motor
+
+Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno  
+
+1.servo motor's Grand to Arduino's ground  
+2.servo motor's ?? to Arduino's +5V  
+3.servo motor's signal to Arduino's ??  
+
+###iR Receiver Module
+
+Connect iR Receiver Module (PL-IRM0101(38kHz)with shield) to Arduino  
+
+1.iR Receiver's Grand to Arduino's ground  
+2.iR Receiver's ?? to Arduino's +5V  
+3.iR Receiver's signal to Arduino's ??  
+
+and give power to arduino
+
+
+##Software
+
+###Analyse and Set Signal
+
+Analyze signal code of your remote controller
+with the code shown below  
+
+(panasonic projector's remote controller works well with this code. But Sony's does not.)  
+
+```
+赤外線通信の実験２  
+http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
+```
+
+And set the signal code that you want to use for control the servo motor  
+in proper place in the code "iR_Servo_RemoteControl.ino"
+
+then you can controll servo motor with your iR remote controller  
+
+
+###Send Code to Arduino
+
+  
+Send Code to Arduino  
+  
+
+
+
+##Machinery
+
+###Print Parts
+
+Print Parts:  
+Basement  
+Lever  
+NobExtender  
+SensorSupport_Upper
+SensorSupport_lower
+  
+see stl file on thingiverse shown below  
+  
+   
+  
+###Install Parts
+  
+Install parts with proper screw(M2.7,M3,M4???)  
+  
+  
+    
+      
+#Reference
 
 
 ###Source Code
@@ -72,3 +148,57 @@ http://www.thingiverse.com/thing:103600
 Controller: Arduino UNO  
 Servo Motor: GWS Servo S03T/2BBMG/F (relatively high torque)   
 iR remote controller reciever module: PL-IRM0101(38kHz)with shield
+
+
+###iR Data from Remote Controller
+
+####Panasonic Projector Remote Controller
+
+if slide switch = Computer Numetric
+
+1:10
+2:11
+3:12
+4:13
+5:14
+6:15
+7:16
+8:17
+9:18
+0:19
+next:F
+aspect:DE
+light:no emittion(out of order?)
+id all:6B
+is set:6C
+
+AUTO SETUP:1
+ON?:3E
+OFF?:3F
+RBG1:A
+RGB2:B
+VIDEO:3
+S-VIDEO:no emittion(out of order?)
+SHUT:91
+MENU:7A
+FREEZE:2
+
+
+if slide switch = Projector
+
+1:3B
+2:62
+3:70
+4:9
+5:5
+6:4
+7:7C
+8:35
+9:36
+0:81
+next:F
+aspect:DE
+light:no emittion(out of order?)
+id all:6B
+is set:6C
+
