@@ -53,25 +53,25 @@ void loop()
      if (ans != 0) {
           switch(ans) {
             
-           case 0x13:     myservo_1.write(00);          // get signal 10 (button "1" ) then set servo position ** degree  //0x13 means button "4"
+           case 0x13:     myservo_1.write(00);          // get signal 10 (button "4" ) then set servo position ** degree  //0x13 means button "4"
                           delay( 2000 );   
                           
-                          myservo_2.write(00);          // get signal 10 (button "1" ) then set servo position ** degree 
+                          myservo_2.write(00);          // get signal 10 (button "4" ) then set servo position ** degree 
                           delay( 2000 ); 
 
-                          myservo_3.write(00);          // get signal 10 (button "1" ) then set servo position ** degree                   
+                          myservo_3.write(00);          // get signal 10 (button "4" ) then set servo position ** degree                   
                           delay( 200 );     
                           
                    break ;
                    
                    
-           case 0x14:     myservo_1.write(100);         // get signal 11 (button "2" ) then set servo position ** degree  //0x14 means button "5"
+           case 0x14:     myservo_1.write(100);         // get signal 11 (button "5" ) then set servo position ** degree  //0x14 means button "5"
                           delay( 2000 );   
                           
-                          myservo_2.write(95);         // get signal 11 (button "2" ) then set servo position ** degree 
+                          myservo_2.write(83);         // get signal 11 (button "5" ) then set servo position ** degree 
                           delay( 2000 ); 
 
-                          myservo_3.write(98);         // get signal 11 (button "2" ) then set servo position ** degree                   
+                          myservo_3.write(90);         // get signal 11 (button "5" ) then set servo position ** degree                   
                           delay( 200 ); 
                    
                    break ;
