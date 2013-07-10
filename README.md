@@ -22,17 +22,17 @@ but cause of some reason, I took this method.
 Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno  
 
 (Servo1)
-1.servo motor's Grand to Arduino's ground  
+1.servo motor's Grand to Arduino's Ground  
 2.servo motor's PWR to Arduino's +5V  
 3.servo motor's signal to Arduino's #9
 
 (Servo2)
-1.servo motor's Grand to Arduino's ground  
+1.servo motor's Grand to Arduino's Ground  
 2.servo motor's PWR to Arduino's +5V  
 3.servo motor's signal to Arduino's #10
 
 (Servo3)
-1.servo motor's Grand to Arduino's ground  
+1.servo motor's Grand to Arduino's Ground  
 2.servo motor's PWR to Arduino's +5V  
 3.servo motor's signal to Arduino's #11
 
@@ -41,7 +41,7 @@ Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno
 
 Connect iR Receiver Module (PL-IRM0101(38kHz)with shield) to Arduino  
 
-1.iR Receiver's Grand to Arduino's ground  
+1.iR Receiver's Grand to Arduino's Ground  
 2.iR Receiver's PWR to Arduino's +5V  
 3.iR Receiver's signal to Arduino's #2  
 
