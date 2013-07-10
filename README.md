@@ -137,10 +137,8 @@ Made break down test turning on/off 1000times.
 
 
 ####Printing  
-Printed with Makerbot Replicator2X.  
-Set parameters below fot strength.  
-Makerbot Replicator2Xにて出力した。  
-強度を確保する為、maker wareにて以下のパラメータを設定した。
+Printed with Makerbot Replicator2X. Set parameters below to secure proper strength.  
+Makerbot Replicator2Xにて出力した。強度を確保する為、maker wareにて以下のパラメータを設定した。  
   
 ```
 infill: 50%  
