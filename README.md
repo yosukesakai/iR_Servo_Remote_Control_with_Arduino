@@ -102,7 +102,7 @@ Install parts with proper screw (M1.7, M3, M4)
 
 
 ###Source Code
-Source code is published on github described below.
+Source code is published on github described below.  
 ソースコード(Arduino用)はgithubに保存/公開している。  
 https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino  
 
@@ -125,21 +125,21 @@ http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
 
 ###Parts
 
-Mount for servo moter, Lever, Extender for switch nob
-サーボモータのマウント、サーボモータとトグルスイッチをつなぐ為のリンク(レバーとのノブエクステンダー)を作成した。
+Mount for servo moter, Lever, Extender for switch nob.  
+サーボモータのマウント、サーボモータとトグルスイッチをつなぐ為のリンク(レバーとのノブエクステンダー)を作成
 
 [Prototype]
-Tried some patterns for layout of servo motor mount and lever avoiding hitting ohter perts.
-Made break down test turning on/off 1000times.
+Tried some patterns for layout of servo motor mount and lever avoiding hitting ohter perts.  
+Made break down test turning on/off 1000times.  
 
-マウントレイアウト、周辺部材に接触しないレバーの逃がし等について、複数の試作を行った。
-プロトタイプ完成後、耐久試験(on/off:1000回)を行い、問題がないことを確認した。(経年劣化については無視することとした。加水分解に対する耐久性の検討など、今後の課題とする。)
+マウントレイアウト、周辺部材に接触しないレバーの逃がし等について、複数の試作を行った。  
+プロトタイプ完成後、耐久試験(on/off:1000回)を行い、問題がないことを確認した。(経年劣化については無視することとした。加水分解に対する耐久性の検討など、今後の課題とする。)  
 
 
 [Print]  
-Printed with Makerbot Replicator2X.
-Set parameters below fot strength.
-Makerbot Replicator2Xにて出力した。
+Printed with Makerbot Replicator2X.  
+Set parameters below fot strength.  
+Makerbot Replicator2Xにて出力した。  
 強度を確保する為、maker wareにて以下のパラメータを設定した。
   
 ```
@@ -159,58 +159,59 @@ http://www.thingiverse.com/thing:103600
 
 Controller: Arduino UNO  
 Servo Motor: GWS Servo S03T/2BBMG/F (relatively high torque)   
-iR remote controller reciever module: PL-IRM0101(38kHz)with shield
-
-
+iR remote controller reciever module: PL-IRM0101(38kHz)with shield  
+  
+  
 ###iR Data from Remote Controller
 
 ####Panasonic Projector Remote Controller
 
-if slide switch = Computer Numetric
+if slide switch = Computer Numetric  
+  
+1:10  
+2:11  
+3:12  
+4:13  
+5:14  
+6:15  
+7:16  
+8:17  
+9:18  
+0:19  
+next:F  
+aspect:DE  
+light:no emittion(out of order?)  
+id all:6B  
+is set:6C  
+  
+AUTO SETUP:1  
+ON?:3E  
+OFF?:3F  
+RBG1:A  
+RGB2:B  
+VIDEO:3  
+S-VIDEO:no emittion(out of order?)  
+SHUT:91  
+MENU:7A  
+FREEZE:2  
+  
+  
+if slide switch = Projector  
 
-1:10
-2:11
-3:12
-4:13
-5:14
-6:15
-7:16
-8:17
-9:18
-0:19
-next:F
-aspect:DE
-light:no emittion(out of order?)
-id all:6B
-is set:6C
-
-AUTO SETUP:1
-ON?:3E
-OFF?:3F
-RBG1:A
-RGB2:B
-VIDEO:3
-S-VIDEO:no emittion(out of order?)
-SHUT:91
-MENU:7A
-FREEZE:2
-
-
-if slide switch = Projector
-
-1:3B
-2:62
-3:70
-4:9
-5:5
-6:4
-7:7C
-8:35
-9:36
-0:81
-next:F
-aspect:DE
-light:no emittion(out of order?)
-id all:6B
-is set:6C
-
+1:3B  
+2:62  
+3:70  
+4:9  
+5:5  
+6:4  
+7:7C  
+8:35  
+9:36  
+0:81  
+next:F  
+aspect:DE  
+light:no emittion(out of order?)  
+id all:6B  
+is set:6C  
+  
+  
