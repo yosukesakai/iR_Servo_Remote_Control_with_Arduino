@@ -112,7 +112,7 @@ This is for break down test.
 iR_Servo_RemoteControl_for_test.ino
 ```  
 
-Reference  
+####Reference for code  
 コード作成にあたっては以下のウェブサイトを参照した。  
   
 Servo library  
@@ -128,7 +128,7 @@ http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
 Mount for servo moter, Lever, Extender for switch nob.  
 サーボモータのマウント、サーボモータとトグルスイッチをつなぐ為のリンク(レバーとのノブエクステンダー)を作成
 
-[Prototype]
+####Prototyping
 Tried some patterns for layout of servo motor mount and lever avoiding hitting ohter perts.  
 Made break down test turning on/off 1000times.  
 
@@ -136,7 +136,7 @@ Made break down test turning on/off 1000times.
 プロトタイプ完成後、耐久試験(on/off:1000回)を行い、問題がないことを確認した。(経年劣化については無視することとした。加水分解に対する耐久性の検討など、今後の課題とする。)  
 
 
-[Print]  
+####Printing  
 Printed with Makerbot Replicator2X.  
 Set parameters below fot strength.  
 Makerbot Replicator2Xにて出力した。  
