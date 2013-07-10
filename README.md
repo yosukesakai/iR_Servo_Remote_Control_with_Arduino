@@ -145,8 +145,8 @@ infill: 50%
 number of shells: 3  
 ```
 
-stl file is published on thingiverse.  
-完成したstlファイルはThingiverseに保存/公開している。
+stl file is also published on thingiverse.  
+完成したstlファイルはThingiverseでも保存/公開している。
   
 iR Servo Remote Control with Arduino    
 http://www.thingiverse.com/thing:103600
