@@ -13,6 +13,9 @@ but cause of some reason, I took this method.
 ```
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7011.JPG)
 
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7011.JPG?raw=true)
+
+
 
 ##Instruction
 
