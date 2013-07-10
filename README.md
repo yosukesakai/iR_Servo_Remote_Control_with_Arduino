@@ -11,8 +11,7 @@ Relay controll system is suitable for this kind of solution nomally,
 but cause of some reason, I took this method.
 この課題に対して、普通はリレーを制御するシステムを制作するだろうが、もろもろの事情によりこの方式となった。
 ```
-![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts(stl)/photo/DSCN7011.JPG)
-
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7011.JPG)
 
 
 ##Instruction
