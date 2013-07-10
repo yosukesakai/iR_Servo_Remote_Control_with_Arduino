@@ -55,7 +55,7 @@ and give power to arduino
 Analyze signal code of your remote controller
 with the code shown below  
 
-(panasonic projector's remote controller works well with this code. But Sony's does not.)  
+(Panasonic projector's remote controller works well with this code. But Sony's does not.)  
 
 ```
 赤外線通信の実験２  
