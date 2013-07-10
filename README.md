@@ -2,6 +2,9 @@
 
 ###Project Outline
 
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7024.JPG?raw=true)
+
+
 This project aims to make a system to controll a toggle switch remotely. A User send iR signal with iR remote controller (Panasonic) to Arduino with iR receiver module, then the Arduino moves servo moter to turn on/off a toggle switch. 
 
 スイッチボックスに納められたトグルスイッチを遠隔操作するシステムを制作する。赤外線リモコン(Panasonic)から発信した赤外線をArduinoに接続した赤外線受信モジュールで受信し、信号に応じて、トグルスイッチに接続したサーボモータを動かす。
@@ -11,8 +14,6 @@ Relay controll system is suitable for this kind of solution nomally,
 but cause of some reason, I took this method.
 この課題に対して、普通はリレーを制御するシステムを制作するだろうが、もろもろの事情によりこの方式となった。
 ```
-![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7011.JPG)
-
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7011.JPG?raw=true)
 
 
@@ -81,6 +82,9 @@ Send Code to Arduino
 
 
 ##Machinery
+
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7016.JPG?raw=true)
+
 
 ###Print Parts
 
