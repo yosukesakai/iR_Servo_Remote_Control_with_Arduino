@@ -94,9 +94,7 @@ Lever
 NobExtender  
 SensorSupport_Upper
 SensorSupport_lower
-  
-see stl file on thingiverse shown below  
-  
+    
    
   
 ###Install Parts
