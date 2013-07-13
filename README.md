@@ -240,8 +240,7 @@ is set:6C
 Produced by yosukesakai<br /></a>
 iR_Servo_Remote_Control_with_Arduino (documentation, photo, stl file except codes) is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/">Creative Commons Attribution - ShareAlike 3.0 Unported License.<br />
 
-Source code of this project shoud be published under open source license. But some parts is quotation from other's website that is not published under open source license. So currently, the source code on this website cannot be published under open source license.  
-
+Source code of this project shoud be published under open source license. But some parts is quotation from other's website that is not published under open source license. So currently, the source code on this website cannot be published under open source license. Usage of the code in accordance with the law is welcome :)
 
 ##Disclaimer
 ```
