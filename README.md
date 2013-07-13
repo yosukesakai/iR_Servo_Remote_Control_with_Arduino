@@ -41,6 +41,12 @@ Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno
 2.servo motor's PWR to Arduino's +5V  
 3.servo motor's signal to Arduino's #11
 
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7055.JPG?raw=true)
+
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7058.JPG?raw=true)
+
+
+
 
 ###iR Receiver Module
 
@@ -49,6 +55,10 @@ Connect iR Receiver Module (PL-IRM0101(38kHz)with shield) to Arduino
 1.iR Receiver's Grand to Arduino's Ground  
 2.iR Receiver's PWR to Arduino's +5V  
 3.iR Receiver's signal to Arduino's #2  
+
+![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7041.JPG?raw=true)
+
+
 
 and give power to arduino
 
