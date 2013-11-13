@@ -86,7 +86,7 @@ then you can controll servo motor with your iR remote controller
 ###Send Code to Arduino
 
   
-Send Code to Arduino  
+Send the Code to Arduino  
   
 
 
