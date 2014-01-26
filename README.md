@@ -2,6 +2,8 @@
 
 ###Project Outline
 
+
+####Background
 YCAMの館内には、ホワイエとよばれる広場があります。ここでは様々な作品展示やイベントが行われます。ホワイエを照らす備え付けの照明はありません。いつも3階にあるテラスに設置した仮設の照明を用いています。  
 仮設照明は舞台用の照明で、on/offは照明の近くにおかれたスイッチボックスで行います。この操作は手動で行わなければなりません。つまり、毎朝毎晩、このスイッチを操作するために、1階にいるスタッフが、3階まで(しかも奥まった場所!)5分以上かけて行かねばなりませんでした。  
 これを1階から遠隔操作できるようにしてみよう、というのがこのプロジェクトの目的です。  
@@ -10,6 +12,7 @@ YCAMの館内には、ホワイエとよばれる広場があります。ここ�
 
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7024.JPG?raw=true)
 
+####Goal
 
 This project aims to make a system to controll a toggle switch remotely. A User send iR signal with iR remote controller (Panasonic) to Arduino with iR receiver module, then the Arduino moves servo moter to turn on/off a toggle switch. 
 
