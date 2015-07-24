@@ -6,8 +6,12 @@
 ####Background
 YCAMの館内には、ホワイエとよばれる広場があります。ここでは様々な作品展示やイベントが行われます。ホワイエを照らす備え付けの照明はありません。3階にあるテラスに設置した仮設の照明をいつも用いています。  
 仮設照明は舞台用の照明で、on/offは照明の近くにおかれたスイッチボックスで行います。この操作は手動で行わなければなりません。このため、毎朝毎晩、このスイッチを操作するために、1階にいるスタッフが、3階まで(しかも奥まった場所!)5分以上かけて往復しなければなりませんでした。  
-この照明を1階から遠隔操作できるようにしよう、というのがこのプロジェクトの目的です。  
+この照明を1階から遠隔操作できるようにしよう、というのがこのプロジェクトの目的です。    
 
+YCAM has a large space called "Foyer". Various exhibition and events are held there. I does not have lights that are permanently-installed. It has only temporary-installed lights on 3rd floor.  
+temporary-installed lights are for stage and controlled by switch box that is installed close to the lights. It is operated manually. So a staff has to goto 3rd floor (even it is at deep-set! ) from 1st floor in every morning and night. It takes more than 5 min!  
+So I decided to make something to controll the lights from 1st floor.  
+  
 
 
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7024.JPG?raw=true)
