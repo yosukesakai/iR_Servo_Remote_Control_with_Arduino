@@ -9,7 +9,7 @@ YCAMの館内には、ホワイエとよばれる広場があります。ここ�
 この照明を1階から遠隔操作できるようにしよう、というのがこのプロジェクトの目的です。    
 
 YCAM has a large space called "Foyer". Various exhibition and events are held there. I does not have lights that are permanently-installed. It has only temporary-installed lights on 3rd floor.  
-temporary-installed lights are for stage and controlled by switch box that is installed close to the lights. It is operated manually. So a staff has to goto 3rd floor (even it is at deep-set! ) from 1st floor in every morning and night. It takes more than 5 min!  
+temporary-installed lights are for stage and controlled by switch box that is installed close to the lights. It is operated manually. So a staff has to goto 3rd floor (even it is at deep-set! ) from 1st floor in every morning and night to oparate it. It takes more than 5 min!  
 So I decided to make something to controll the lights from 1st floor.  
   
 
