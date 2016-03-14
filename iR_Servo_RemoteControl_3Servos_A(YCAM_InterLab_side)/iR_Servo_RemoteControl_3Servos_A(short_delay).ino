@@ -54,10 +54,10 @@ void loop()
           switch(ans) {
             
            case 0x10:     myservo_1.write(00);          // get signal 10 (button "1" ) then set servo position ** degree 
-                          delay( 500 );   
+                          delay( 2000 );   
                           
                           myservo_2.write(00);          // get signal 10 (button "1" ) then set servo position ** degree 
-                          delay( 500 ); 
+                          delay( 2000 ); 
 
                           myservo_3.write(00);          // get signal 10 (button "1" ) then set servo position ** degree                   
                           delay( 200 );     
@@ -66,10 +66,10 @@ void loop()
                    
                    
            case 0x11:     myservo_1.write(105);         // get signal 11 (button "2" ) then set servo position ** degree  
-                          delay( 500 );   
+                          delay( 2000 );   
                           
                           myservo_2.write(105);         // get signal 11 (button "2" ) then set servo position ** degree 
-                          delay( 500 ); 
+                          delay( 2000 ); 
 
                           myservo_3.write(105);         // get signal 11 (button "2" ) then set servo position ** degree                   
                           delay( 200 ); 
