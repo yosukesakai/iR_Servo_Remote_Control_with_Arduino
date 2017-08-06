@@ -1,9 +1,9 @@
-#iR Servo Remote Control with Arduino
+# iR Servo Remote Control with Arduino
 
-###Project Outline
+### Project Outline
 
 
-####Background
+#### Background
 [山口情報芸術センター](http://www.ycam.jp)YCAMの館内には、ホワイエとよばれる広場があります。ここでは様々な作品展示やイベントが行われます。ホワイエを照らす備え付けの照明はありません。3階にあるテラスに設置した仮設の照明をいつも用いています。  
 仮設照明は舞台用の照明で、on/offは照明の近くにおかれたスイッチボックスで行います。この操作は手動で行わなければなりません。このため、毎朝毎晩、このスイッチを操作するために、1階にいるスタッフが、3階まで(しかも奥まった場所!)5分以上かけて往復しなければなりませんでした(しまも2カ所!)。  
 この照明を1階から遠隔操作できるようにしよう、というのがこのプロジェクトの目的です。    
@@ -16,7 +16,7 @@ So I decided to make something to controll the lights from 1st floor.
 
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7024.JPG?raw=true)
 
-####Goal
+#### Goal
 
 This project aims to make a system to controll a toggle switch remotely. A User send iR signal with iR remote controller (Panasonic) to Arduino with iR receiver module, then the Arduino moves servo moter to turn on/off a toggle switch. 
 
@@ -31,11 +31,11 @@ but cause of some reason, I took this method.
 
 
 
-##Instruction
+## Instruction
 
-##Hardware
+## Hardware
 
-###Servo Motor
+### Servo Motor
 
 Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno  
 
@@ -61,7 +61,7 @@ Connect servo motor (GWS Servo S03T/2BBMG/F) to Arduino Uno
 
 
 
-###iR Receiver Module
+### iR Receiver Module
 
 Connect iR Receiver Module (PL-IRM0101(38kHz)with shield) to Arduino  
 
@@ -76,9 +76,9 @@ Connect iR Receiver Module (PL-IRM0101(38kHz)with shield) to Arduino
 and give power to arduino
 
 
-##Software
+## Software
 
-###Analyse and Set Signal
+### Analyse and Set Signal
 
 Analyze signal code of your remote controller
 with the code shown below  
@@ -96,7 +96,7 @@ in proper place in the code "iR_Servo_RemoteControl.ino"
 then you can controll servo motor with your iR remote controller  
 
 
-###Send Code to Arduino
+### Send Code to Arduino
 
   
 Send the Code to Arduino  
@@ -104,12 +104,12 @@ Send the Code to Arduino
 
 
 
-##Machinery
+## Machinery
 
 ![alt text](https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino/blob/master/MachineryParts_stl/photo/DSCN7016.JPG?raw=true)
 
 
-###Print Parts
+### Print Parts
 
 Print Parts:  
 Basement  
@@ -120,17 +120,17 @@ SensorSupport_lower
     
    
   
-###Install Parts
+### Install Parts
   
 Install parts with proper screw (M1.7, M3, M4)  
   
   
     
       
-#Reference
+# Reference
 
 
-###Source Code
+### Source Code
 Source code is published on github described below.  
 ソースコード(Arduino用)はgithubに保存/公開している。  
 https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino  
@@ -141,7 +141,7 @@ This is for break down test.
 iR_Servo_RemoteControl_for_test.ino
 ```  
 
-####Reference for code  
+#### Reference for code  
 コード作成にあたっては以下のウェブサイトを参照した。  
   
 Servo library  
@@ -152,12 +152,12 @@ http://www.geocities.jp/zattouka/GarageHouse/micon/InfraredCOM/InfraredCOM2.htm
 
 
 
-###Parts
+### Parts
 
 Mount for servo moter, Lever, Extender for switch nob.  
 サーボモータのマウント、サーボモータとトグルスイッチをつなぐ為のリンク(レバーとのノブエクステンダー)を作成
 
-####Prototyping
+#### Prototyping
 Tried some patterns for layout of servo motor mount and lever avoiding hitting ohter perts.  
 Made break down test turning on/off 1000times.  
 
@@ -165,7 +165,7 @@ Made break down test turning on/off 1000times.
 プロトタイプ完成後、耐久試験(on/off:1000回)を行い、問題がないことを確認した。(経年劣化については無視することとした。加水分解に対する耐久性の検討など、今後の課題とする。)  
 
 
-####Printing  
+#### Printing  
 Printed with Makerbot Replicator2X. Set parameters below to secure proper strength.  
 Makerbot Replicator2Xにて出力した。強度を確保する為、maker wareにて以下のパラメータを設定した。  
   
@@ -182,16 +182,16 @@ http://www.thingiverse.com/thing:103600
 
 
 
-###Electric Parts
+### Electric Parts
 
 Controller: Arduino UNO  
 Servo Motor: GWS Servo S03T/2BBMG/F (relatively high torque)   
 iR remote controller reciever module: PL-IRM0101(38kHz)with shield  
   
   
-###iR Data from Remote Controller
+### iR Data from Remote Controller
 
-####Panasonic Projector Remote Controller
+#### Panasonic Projector Remote Controller
 
 if slide switch = Computer Numetric  
   
@@ -246,7 +246,7 @@ is set:6C
 
 
   
-##Licenses and Credits  
+## Licenses and Credits  
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/3.0/"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-sa/3.0/88x31.png" /></a><br /> 
 <span xmlns:dct="http://purl.org/dc/terms/" href="http://purl.org/dc/dcmitype/Text" property="dct:title" rel="dct:type">iR_Servo_Remote_Control_with_Arduino</span><a xmlns:cc="http://creativecommons.org/ns#" href="https://github.com/yosukesakai/iR_Servo_Remote_Control_with_Arduino" property="cc:attributionName" rel="cc:attributionURL">  
